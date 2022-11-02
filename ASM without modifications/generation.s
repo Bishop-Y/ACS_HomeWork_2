@@ -50,7 +50,7 @@ generation:
 	mov	edx, DWORD PTR -8[rbp]
 	imul	edx, edx, 100
 	sub	eax, edx
-	mov	DWORD PTR -8[rbp], eax # buffer = edx (результат rand() % 100)
+	mov	DWORD PTR -8[rbp], eax # buffer = eax (результат rand() % 100)
 	lea	rdi, .LC2[rip]
 	mov	eax, 0
 	call	printf@PLT # вызов printf
