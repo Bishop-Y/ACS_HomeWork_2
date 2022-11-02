@@ -4,8 +4,6 @@
 	.section	.rodata
 .LC0:
 	.string	"\nType your string: "
-.LC1:
-	.string	"%s"
 	.text
 	.globl	fillStringManual
 	.type	fillStringManual, @function
@@ -19,11 +17,12 @@ fillStringManual:
 	lea	rdi, .LC0[rip]
 	mov	eax, 0
 	call	printf@PLT # вызов printf
+	call	getchar@PLT # вызов getchar
+	mov	rdx, QWORD PTR stdin[rip]
 	mov	rax, QWORD PTR -24[rbp] # rax = указатель на array
-	mov	rsi, rax # rsi = rax (rax = указатель на array)
-	lea	rdi, .LC1[rip]
-	mov	eax, 0
-	call	__isoc99_scanf@PLT # вызов scanf
+	mov	esi, 100000 # передача 100000 в fgets
+	mov	rdi, rax # передача rax в fgets
+	call	fgets@PLT # вызов fgets
 	jmp	.L2 # заход в while
 .L4:
 	add	DWORD PTR -4[rbp], 1 # ++buffer
