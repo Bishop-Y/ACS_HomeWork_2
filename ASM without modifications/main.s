@@ -92,8 +92,8 @@ main:
 	mov	DWORD PTR -4[rbp], eax # result = eax (реузультат вызова function)
 	add	DWORD PTR -12[rbp], 1 # ++i
 .L6:
-	cmp	DWORD PTR -12[rbp], 9999 # i < 10000
-	jle	.L7 # если i < 10000, то возвращаемся в цикл
+	cmp	DWORD PTR -12[rbp], 999999 # i < 1000000
+	jle	.L7 # если i < 1000000, то возвращаемся в цикл
 	call	clock@PLT # вызов clock
 	mov	QWORD PTR -32[rbp], rax # end_time = rax (rax = результат вызова clock)
 	cmp	DWORD PTR -4[rbp], 0 # result == 0
