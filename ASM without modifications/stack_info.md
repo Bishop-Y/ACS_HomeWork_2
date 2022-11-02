@@ -32,7 +32,7 @@
 * -24 = указатель на array
 * -28 = buffer <br/>
 
-# writeStringFile
+# writeStringFile.s
 * -8 = output
 * -20 = result
 * -32 = outputFile 
