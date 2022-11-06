@@ -4,53 +4,70 @@
 	.globl	function
 	.type	function, @function
 function:
-	endbr64
-	push	rbp
-	mov	rbp, rsp
-	mov	QWORD PTR -24[rbp], rdi # указатель на array
-	mov	DWORD PTR -28[rbp], esi # buffer
-	mov	DWORD PTR -8[rbp], 0 # counter = 0
-	mov	DWORD PTR -4[rbp], 0 # index = 0
-	jmp	.L2 # заходим в цикл
+	endbr64	
+	push	rbp	#
+	mov	rbp, rsp	#,
+	mov	QWORD PTR -24[rbp], rdi	# array = rdi
+	mov	DWORD PTR -28[rbp], esi	# size = esi
+# ./function.c:3:     int counter = 0;
+	mov	DWORD PTR -8[rbp], 0	# counter = 0
+# ./function.c:4:     for (index = 0; index < size; ++index) {
+	mov	DWORD PTR -4[rbp], 0	# index = 0
+# ./function.c:4:     for (index = 0; index < size; ++index) {
+	jmp	.L2
 .L7:
-	mov	eax, DWORD PTR -4[rbp] # eax = index
+# ./function.c:5:        if (array[index] == 40) {
+	mov	eax, DWORD PTR -4[rbp]	# eax = index
 	movsx	rdx, eax
-	mov	rax, QWORD PTR -24[rbp] # rax = указатель на array
-	add	rax, rdx # смотрим array[index]
+	mov	rax, QWORD PTR -24[rbp]	# rax = array
+	add	rax, rdx
 	movzx	eax, BYTE PTR [rax]
-	cmp	al, 40 # array[index] == '('
-	jne	.L3 # если array[index] != '(' то идём в else if
-	add	DWORD PTR -8[rbp], 1 # ++counter
-	jmp	.L4 # идём в if (counter < 0)
+# ./function.c:5:        if (array[index] == 40) {
+	cmp	al, 40	# array[index] == 40
+	jne	.L3
+# ./function.c:6:            ++counter;
+	add	DWORD PTR -8[rbp], 1	# ++counter
+	jmp	.L4
 .L3:
-	mov	eax, DWORD PTR -4[rbp] # eax = index
+# ./function.c:7:        } else if (array[index] == 41) {
+	mov	eax, DWORD PTR -4[rbp]	# eax = index
 	movsx	rdx, eax
-	mov	rax, QWORD PTR -24[rbp] # rax = указатель на array
-	add	rax, rdx # смотрим array[index]
+	mov	rax, QWORD PTR -24[rbp]	# rax = array
+	add	rax, rdx	# rax = array[index]
 	movzx	eax, BYTE PTR [rax]
-	cmp	al, 41 # array[index] == ')'
-	jne	.L4 # если array[index] != ')', то идём в if (counter < 0)
-	sub	DWORD PTR -8[rbp], 1 # --counter
+# ./function.c:7:        } else if (array[index] == 41) {
+	cmp	al, 41	# array[index] == 41
+	jne	.L4
+# ./function.c:8:            --counter;
+	sub	DWORD PTR -8[rbp], 1	# --counter
 .L4:
-	cmp	DWORD PTR -8[rbp], 0 # counter < 0
-	jns	.L5 # если counter >=, то продолжаем цикл
-	mov	eax, 0 # eax = 0 (return 0)
-	jmp	.L6 # выход из программы
+# ./function.c:10:        if (counter < 0) {
+	cmp	DWORD PTR -8[rbp], 0	# counter < 0
+	jns	.L5
+# ./function.c:11:            return 0;
+	mov	eax, 0
+	jmp	.L6	# в конец функции
 .L5:
-	add	DWORD PTR -4[rbp], 1 # ++index
+# ./function.c:4:     for (index = 0; index < size; ++index) {
+	add	DWORD PTR -4[rbp], 1	# ++index
 .L2:
-	mov	eax, DWORD PTR -4[rbp] # eax = index
-	cmp	eax, DWORD PTR -28[rbp] # index < buffer
-	jl	.L7 # если index < buffer,  то идём обратно в цикл
-	cmp	DWORD PTR -8[rbp], 0 # counter == 0
-	jne	.L8 # идём в else
-	mov	eax, 1 # eax = 1 (return 1)
-	jmp	.L6 # выход из программы
+# ./function.c:4:     for (index = 0; index < size; ++index) {
+	mov	eax, DWORD PTR -4[rbp]	# eax = index
+	cmp	eax, DWORD PTR -28[rbp]	# eax <  size
+	jl	.L7
+# ./function.c:14:     if (counter == 0) {
+	cmp	DWORD PTR -8[rbp], 0	# counter == 0
+	jne	.L8
+# ./function.c:15:         return 1;
+	mov	eax, 1
+	jmp	.L6	# в конец функции
 .L8:
-	mov	eax, 0 # eax = 0 (return 0)
+# ./function.c:17:         return 0;
+	mov	eax, 0
 .L6:
+# ./function.c:19: }
 	pop	rbp
-	ret
+	ret	
 	.size	function, .-function
 	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0"
 	.section	.note.GNU-stack,"",@progbits
