@@ -6,7 +6,7 @@
 * -240 = start_time
 * -244 = ch
 * -248 = index (заменено на r15d)
-* -252 = result
+* -252 = result (заменено на r14d)
 * -256 = size (заменено на r13d)
 * -260 = inputType
 * -264 = seed
