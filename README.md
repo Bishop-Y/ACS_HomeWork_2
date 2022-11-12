@@ -68,16 +68,8 @@
 ## Отчёт: <br/>
 > * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
 ----
-# На 8 баллов:
-## Программа на C с генератором данных: <br/>
-> * [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C) <br/>
-## Программа на ассемблере с генератором данных: <br/>
-> * [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications) <br/>
-> * [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications) <br/>
-## Тесты генерации данных: <br/>
-> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 # На 8-9 баллов:
-## Замер времени: <br/>
+## Программы с замером времени и генерацией данных: <br/>
 > * [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C) <br/>
 > * [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications) <br/>
 > * [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications) <br/>
