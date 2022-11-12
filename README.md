@@ -24,7 +24,7 @@
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 
 ## Отчёт: <br/>
-> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
+> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications#readme) <br/>
 ---- 
 # На 5 баллов:
 ##  Программа на C с передачей данных через параметры + использованы локальные переменные: <br/>
@@ -41,7 +41,7 @@
 > * rsi/esi - второй аргумент в функции
 > * rdx/edx - третий аргумент в функции
 > * rcx - счётчик
-> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
+> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications#readme) <br/>
 ---- 
 # На 6 баллов:
 ## Модифицированная ассемблерная программа с проведенным рефакторингом + с поясняющими комментариями: <br/>
@@ -52,7 +52,7 @@
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 
 ## Отчёт: <br/>
-> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
+> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications#readme) <br/>
 ----
 # На 7 баллов:
 
@@ -66,7 +66,7 @@
 > * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 
 ## Отчёт: <br/>
-> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
+> * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications#readme) <br/>
 ----
 # На 8-9 баллов:
 ## Программы с замером времени и генерацией данных: <br/>
