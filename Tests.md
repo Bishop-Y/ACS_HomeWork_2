@@ -3,25 +3,15 @@
 ## На 4 балла:
 1. Тесты с ручным вводом: <br/>
 > * Без модификаций: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197071947-2eb23d35-fe5a-4a66-83e0-88b07d340097.png) <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/201474307-b954ddc4-b902-48be-ba62-d27cd7fe29a6.png) <br/>
 > * С модификациями: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197071406-dc05f622-b904-45c1-aea2-7eff47afb232.png) <br/>
-2. Тесты некорректной длины: <br/>
-> * Без модификаций: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197072505-ad1897bf-3754-4838-89ef-2e7b98519457.png) <br/>
-> * С модификацяими: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197072597-536721dd-7734-4858-9e57-7f2ae6909bb0.png) <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/201474344-543dbb7e-50f6-4a2c-afa5-6cc7e2b7e9f7.png) <br/> <br/> <br/>
 ## На 6 баллов:
 1. Тест с ручным вводом: <br/>
 > * Без модификаций: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197085493-1b733b0f-98f6-44cf-8c54-533b4e0bfecf.png) <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/201474429-0a4adc29-30c3-4742-bb28-d8f85af83fde.png) <br/> <br/>
 > * С модификациями: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197080475-bffd262b-f3af-4b5f-97dd-47c66c9fb04c.png)
-2. Тест некорректной длины: <br/>
-> * Без модификаций: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197085596-5e26a645-c9c0-442e-834d-963fbf06ad23.png) <br/> <br/>
-> * С модификациями: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197080864-4638e1e6-a6c4-4e57-a6d0-e9e7a5667147.png) <br/> <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/201474464-657213c0-3f4c-4a81-8496-def69301e660.png) <br/> <br/> <br/>
 ## Поведение программы не поменялось! Всё так же работает корректно <br/> <br/>
 ## На 7 баллов: <br/>
 > * Файл с входными параметрами: <br/> <br/>
