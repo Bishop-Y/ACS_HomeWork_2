@@ -15,17 +15,18 @@
 ## Поведение программы не поменялось! Всё так же работает корректно <br/> <br/>
 ## На 7 баллов: <br/>
 > * Файл с входными параметрами: <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197082392-062bd68b-55c5-4247-a666-8782caeb5c0f.png) <br/> <br/>
-> * Командная строка (в ней указывается количество элементов, которое нужно считать с начала файла input.txt): <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197082590-9050c1b4-7311-4a82-8e01-9ad93463dd3b.png) <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/201475065-2d87dfa0-4030-47a1-9de8-615c4ba82789.png) <br/> <br/>
+> * Командная строка (в ней указываются файл с входными данными и файл для записи результата): <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/201474948-48c322eb-1851-4db4-a892-107cfe029cc5.png) <br/>
 > * Файл с выходными параметрами (отработано корректно): <br/> <br/>
-> ![image](https://user-images.githubusercontent.com/66753948/197082726-affb2baa-8a55-45cc-bc7c-d8071dee759d.png) <br/> <br/> <br/>
+> ![image](https://user-images.githubusercontent.com/66753948/201474981-e46b6d1b-37b9-4c81-9207-b674bdaae2bc.png)) <br/> <br/> <br/>
 ## На 8-9 баллов: <br/>
-> Первый тест: размер 200, 5000000 отработок function. <br/>
-> Второй тест: размер 100, 5000000 отработок function. <br/>
-> Третий тест: размер 20, 5000000 отработок function. <br/> 
+> Первый тест: генерируемые данные, seed = 1, 20000000 отработок function. <br/>
+> Второй тест: генерируемые данные, seed = 4, 20000000 отработок function. <br/>
+> Третий тест: генерируемые данные, seed = 11, 5000000 отработок function. <br/> 
+
 | Тип программы  | Время работы первого теста  | Время работы второго теста  | Время работы третьего теста  | Размер исполняемого файла | Суммарное количество строк | 
 | :---: | :---: | :---: | :---: | :---: | :---: | 
-| [Программа на C с замером времени](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/Program%20on%20C%20with%20clock)  | 5245мс  | 2702мс  | 487мс  | 20кб  | 111 строк  | 
-| [Программа на ассемблере без модификаций с замером времени](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20without%20modifications%20with%20clock)  | 5321мс  | 2817мс  | 480мс  | 20кб  | 759 строк  | 
-| [Программа на ассемблере с модификациями с замером времени](https://github.com/Bishop-Y/ACS_HomeWork_1/tree/main/ASM%20with%20clock)  | 3111мс  | 1733мс  | 292мс  | 20кб  | 676 строк  | 
+| [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C)  | 14101мс  | 7510мс  | 1659мс | 20кб  | 104 строки  | 
+| [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications)  | 19808мс  | 10510мс  | 2212мс  | 20кб  | 447 строк  | 
+| [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications)  | 10165мс  | 5323мс  | 1269мс  | 20кб  | 381 строка  | 
