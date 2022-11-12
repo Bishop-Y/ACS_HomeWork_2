@@ -15,7 +15,7 @@
 
 ## Ассемблерная программа без модификаций: <br/>
 > * [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications) <br/>
-> * [Информация о переменных на стеке в разных файлах](hhttps://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/ASM%20without%20modifications/stack_info.md) <br/>
+> * [Информация о переменных на стеке в разных файлах](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/ASM%20without%20modifications/stack_info.md) <br/>
 
 ## Ассемблерная программа с модификациями: <br/>
 > * [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications) <br/>
