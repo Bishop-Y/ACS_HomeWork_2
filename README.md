@@ -4,7 +4,7 @@
 > * Разработать программу, которая в заданной ASCII-строке определяет корректность вложенности круглых скобок «(» и «)». Необходимо учесть, что вложенные скобки могут образовывать в тексте различные группы. Например: ...(...)...(...)....
 ## Программа на C и на ассемблере без замера времени:
 > * Чтобы использовать ввод с файла, надо использовать командную строку и прописать в ней имя файла с входными данными, и имя файла, куда нужно сохранить результат (пример ввода "input.txt output.txt")
-> * Чтобы использовать замер времени работы программы, введите только один аргумент в командную строку (не важно, число ли это, или строка). Результат будет выводиться в командную строку.
+> * Чтобы использовать замер времени работы программы, введите только один аргумент в командную строку (не важно, число ли это, или строка), затем следуйте инструкциям в командной строке. Результат будет выводиться в командную строку. (Замер времени осуществляется только для ручного ввода/генерации данных)
 > * [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C) <br/>
 > * [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications) <br/>
 > * [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications) <br/>
@@ -21,7 +21,7 @@
 > * [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications) <br/>
 
 ## Тесты: <br/>
-> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 
 ## Отчёт: <br/>
 > * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
@@ -49,7 +49,7 @@
 > * [Информация о переменных на стеке в разных модифицированных файлах](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/ASM%20with%20modifications/stack_mod_info.md)
 
 ## Тесты: <br/>
-> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 
 ## Отчёт: <br/>
 > * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
@@ -63,7 +63,7 @@
 > * [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications) <br/>
 
 ## Тесты ввода с файла и вывод в файл: <br/>
-> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 
 ## Отчёт: <br/>
 > * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/ASM%20with%20modifications/README.md) <br/>
@@ -84,4 +84,4 @@
 ## Тесты замера времени с отчётом: <br/>
 > * function (проверка корректности скобочной последовательности) прокручивается 20000000 раз для увеличение времени работы программы.
 > * В программе на ассемблере итерируемые переменные были заменены на регистры r11d ,r12d, r13d, и r15d, а также переменная, в которую каждый раз записывался результат, была заменена на r14d. За счёт этого программа стала работать в среднем быстрее в ~2 раза. 
-> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
