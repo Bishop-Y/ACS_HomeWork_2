@@ -75,7 +75,7 @@
 > * [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications) <br/>
 > * [Программа на ассемблере с модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications) <br/>
 ## Тесты генерации данных: <br/>
-> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_1/blob/main/Tests.md) <br/>
+> * [Тесты](https://github.com/Bishop-Y/ACS_HomeWork_2/blob/main/Tests.md) <br/>
 # На 8-9 баллов:
 ## Замер времени: <br/>
 > * [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C) <br/>
