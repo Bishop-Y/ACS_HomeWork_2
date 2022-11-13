@@ -27,9 +27,9 @@
 
 | Тип программы  | Время работы первого теста  | Время работы второго теста  | Время работы третьего теста  | Размер исполняемого файла | Суммарное количество строк | 
 | :---: | :---: | :---: | :---: | :---: | :---: | 
-| [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C)  | 14101мс  | 7510мс  | 1659мс | 20кб  | 104 строки  | 
-| [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications)  | 19808мс  | 10510мс  | 2212мс  | 20кб  | 447 строк  | 
-| [Программа на ассемблере с ручными модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications)  | 10165мс  | 5323мс  | 1269мс  | 20кб  | 381 строка  |
+| [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C)  | 14101мс  | 7510мс  | 1659мс | 16.9кб  | 104 строки  | 
+| [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications)  | 19808мс  | 10510мс  | 2212мс  | 16.8кб  | 447 строк  | 
+| [Программа на ассемблере с ручными модификациями](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications)  | 10165мс  | 5323мс  | 1269мс  | 16.6кб  | 381 строка  |
 | [Программа на ассемблере O1](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM_O1)  | 5431мс  | 2980мс  | 632мс  | 16.7кб  | 288 строк  |
 | [Программа на ассемблере O2](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM_O2)  | 4058мс  | 2143мс  | 521мс  | 16.7кб  | 307 строк  |
 | [Программа на ассемблере O3](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM_O3)  | 3974мс  | 1934мс  | 510мс  | 16.7кб  | 307 строк  |
