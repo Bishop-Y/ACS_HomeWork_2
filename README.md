@@ -69,7 +69,7 @@
 ## Отчёт: <br/>
 > * [Отчёт](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20with%20modifications#readme) <br/>
 ----
-# На 8-9 баллов:
+# На 8:
 ## Программы с замером времени и генерацией данных: <br/>
 > * [Программа на C](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/Program%20on%20C) <br/>
 > * [Программа на ассемблере без модификаций](https://github.com/Bishop-Y/ACS_HomeWork_2/tree/main/ASM%20without%20modifications) <br/>
